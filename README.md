@@ -21,7 +21,7 @@
 - So, all of this basic information as well as some technical details, is all going to be put into a file, a certificate file, and that's typically a file that ends in .crt or sometimes .cer.
 - The content is an encoded version of the information, and it can be decoded.
 
-###Symmetric Cryptography
+### Symmetric Cryptography
 > - The first thing we need to learn about is something called symmetric-key cryptography. The idea is simply that we encrypt data using a password. So we take some data, we take a password, we put it into an algorithm, and what we get back is some encrypted data.
 - We can then later come back and decrypt that data by taking the same password, putting it into an algorithm with our encrypted data, and what we get back is something that is decrypted, or readable. So the name symmetric key is a fancy way of saying that it uses the same key for both, both for encryption and for decryption.
 - And our key is the password, and it works very much like a key would on a normal lock. 
