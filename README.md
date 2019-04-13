@@ -7,8 +7,8 @@
 - Uses HTTPS for secure communication
 - Certifies the ownership of a public key that’s used for encrypting data sent between a browser and a remote server 
 	- I’ll talk more about public keys and the role that they play in cryptography later on.
-> - For now, just know that that's what it's certifying.
-> - Primary purpose is encryption
+- For now, just know that that's what it's certifying.
+- Primary purpose is encryption
 
 ### Certificate Contents
 - What’s inside one of these Certificates 
@@ -59,7 +59,7 @@ So there’s a one way hand shake, and a mutual handshake
 = The idea is that we have a trusted third party that's going to vouch for this public key. 
 
 ### Certificate Types
-> - The most common type of certificate is a single domain certificate. This would be a certificate where a public key is certified to belong to a single website 
+- The most common type of certificate is a single domain certificate. This would be a certificate where a public key is certified to belong to a single website 
 - If we wanted it to apply to multiple subdomains, for example, app.edmamerto.com or sqlproxy.edmamerto.com, then we would need to get a wildcard certificate. It's exactly the same, it just allows us to have different subdomains.
 - There's a third variation on this which is the multi-domain certificate. it's the same kind of certificate, but we're allowed to have one public key and one certificate that's able to be used for multiple domains. edmamerto.com, edmamertostg.com, 
 There's a fourth variation on this which is the SAN certificate. That stands for Subject Alternative Name. Similar to multi-domain certificates, but they're primarily used Office communication environments.
